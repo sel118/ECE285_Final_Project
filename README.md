@@ -14,7 +14,9 @@ The final section once again runs training multiple times for different ratios o
 
 ## Cycle GAN
 
-Go to folder CycleGAN. The dataset required to run the provided notebook file is extremely large so we have attached a Google Drive link to retrieve it. The zip files should be unpacked in the datasets directory. Once that has been completed, the notebook is ready to run.
+Go to folder CycleGAN. The dataset required to run the provided notebook file is extremely large so we have attached a Google Drive link to retrieve it. The zip files should be unpacked in the datasets directory. Once that has been completed, the notebook is ready to run. 
+
+https://drive.google.com/open?id=18Rluyjy5to81Paz7O90NcvBha79nD0nk
 
 There are some requirements to be installed, for which we have included a simple line to download the necessary software. The training script will train the forward and inverse mapping functions. Use the example line given to train the necessary model for the artists monet, vangogh, cezanne, and ukiyoe. Adjust the name and dataset as necessary. This will take an extremely long time to run so we have provided pretrained models for testing purposes.
 
