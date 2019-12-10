@@ -1,4 +1,4 @@
-# This file runs Testing
+# File for Testing
 import os
 from options.test_options import TestOptions
 from data import create_dataset
