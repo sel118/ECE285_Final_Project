@@ -18,6 +18,9 @@ if __name__ == '__main__':
     model.setup(opt)               # regular setup: load and print networks; create schedulers
     
     my_dir = os.path.join(opt.results_dir, opt.name, '{}_{}'.format(opt.phase,opt.epoch))
+    if not os.path.exists(my_dir):
+        os.makedirs(my_dir)
+    
     for i, data in enumerate(dataset):
         if i >= opt.num_test:  # only apply our model to opt.num_test images.
             break
